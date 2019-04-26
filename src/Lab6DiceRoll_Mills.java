@@ -32,9 +32,9 @@ public class Lab6DiceRoll_Mills {
 	public static int generateRandomDieRoll(int num){
 		int result;
 		
-	//  dice1 = (int)(Math.random()*num + 1); //this is the math method to generate the random
+	//  result = (int)(Math.random()*num + 1); //this is using the math method to generate the random number
 		
-		Random rand = new Random();
+		Random rand = new Random(); // this is using the java random class to generate the random number
 		result = rand.nextInt(num) + 1;
 		
 		return result;
